@@ -1,8 +1,8 @@
-// Sutram — prompt filler stripper
+// Taar — prompt filler stripper
 
 (function () {
-  if (window.__sutram_loaded) return;
-  window.__sutram_loaded = true;
+  if (window.__Taar_loaded) return;
+  window.__Taar_loaded = true;
 
   // ── Compression ────────────────────────────────────────────────────────
 
@@ -48,7 +48,7 @@
   // ── Button ─────────────────────────────────────────────────────────────
 
   const btn = document.createElement('button');
-  btn.id = 'sutram-btn';
+  btn.id = 'Taar-btn';
   btn.textContent = 'optimize';
   btn.style.cssText = [
     'position:fixed',

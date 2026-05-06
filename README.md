@@ -26,7 +26,8 @@ Telegram operators paid per word. Every word earned its place. LLMs charge per t
 
 ## Screenshots
 
-_coming soon_
+![Raw prompt](before-raw-prompt.png)
+![Optimised Prompt](after-compressed-prompt.png)
 
 ## License
 

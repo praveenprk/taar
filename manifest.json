@@ -1,5 +1,7 @@
 {
   "manifest_version": 3,
+  "homepage_url": "https://github.com/praveenprk/taar",
+  "version_name": "2.1.0",
   "name": "Taar",
   "version": "2.1.0",
   "description": "One click. Strip prompt filler. No AI, no server.",

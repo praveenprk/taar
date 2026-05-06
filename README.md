@@ -17,6 +17,13 @@ After:
 ## In Action
 ![In Action](taar-recording-chatgpt.gif)
 
+> ⚠️ **When to not use Taar**
+> - Code or technical prompts — stop words will mangle syntax
+> - When exact phrasing matters — context, nuance, tone
+> - Already concise prompts — it will over-strip
+
+**Mistaken optimize?** `CtrlorCmd+Z` restores original.
+
 ## Install
 
 1. Clone repo

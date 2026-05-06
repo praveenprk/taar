@@ -14,6 +14,9 @@ Before:
 After:
 > Write function parse JSON data API response, handle errors.
 
+## In Action
+![In Action](taar-recording-chatgpt.gif)
+
 ## Install
 
 1. Clone repo

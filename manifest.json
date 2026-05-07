@@ -4,7 +4,7 @@
   "version_name": "2.1.0",
   "name": "Taar",
   "version": "2.1.0",
-  "description": "One click. Strip prompt filler. Runs locally.",
+  "description": "One click. Strip prompt fillers. Runs locally.",
   "permissions": [],
   "content_scripts": [
     {

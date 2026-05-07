@@ -1,4 +1,4 @@
-// Taar — prompt filler stripper
+// Taar — prompt fillers stripper
 
 (function () {
   if (window.__Taar_loaded) return;

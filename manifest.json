@@ -4,7 +4,7 @@
   "version_name": "2.1.0",
   "name": "Taar",
   "version": "2.1.0",
-  "description": "One click. Strip prompt filler. No AI, no server.",
+  "description": "One click. Strip prompt filler. Runs locally.",
   "permissions": [],
   "content_scripts": [
     {
@@ -14,8 +14,10 @@
     }
   ],
   "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
-  }
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "64": "icon64.png",
+    "128": "icon128.png"
+}
 }

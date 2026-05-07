@@ -1,8 +1,10 @@
+<img src="icons/icon128.png" alt="Icon" width="128" height="128">
+
 # Taar
 
 > Telegram-style prompt compression. Strip filler, cut tokens, keep signal.
 
-Browser extension. No AI. No server. No API key.
+Browser extension. No server. No API key.
 
 ## How it works
 

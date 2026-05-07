@@ -19,5 +19,14 @@
     "48": "icons/icon48.png",
     "64": "icons/icon64.png",
     "128": "icons/icon128.png"
-}
+},
+"host_permissions": [
+  "https://gemini.google.com/*",
+  "https://chatgpt.com/*",
+  "https://claude.ai/*",
+  "https://copilot.microsoft.com/*",
+  "https://grok.com/*",
+  "https://chat.mistral.ai/*",
+  "https://huggingface.co/chat/*"
+]
 }

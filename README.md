@@ -31,7 +31,7 @@ Same intent. Fewer tokens. Lower cost.
 ## Why
 
 - The telegram was the original token economy transmitted by Telegraph. Operators charged per word. Every sender became an editor — cutting adjectives, dropping pleasantries, keeping only what the receiver needed to act.
-- Your LLM reads the same way. It doesn't need the preamble. It doesn't need "I was wondering if." It needs the instruction.
+- Your LLM reads the same way. It doesn't need the preamble. It doesn't need "in, on, at, of, i was wondering, please, like"  It needs the instruction.
 - Taar is that editor. Local, fast.
 
 ## Screenshots

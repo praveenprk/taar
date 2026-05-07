@@ -24,12 +24,6 @@ After:
 
 **Mistaken optimize?** `CtrlorCmd+Z` restores original.
 
-## Install
-
-1. Clone repo
-2. `chrome://extensions` → Developer mode → Load unpacked → select folder
-3. Click into any prompt box → hit `optimize`
-
 ## Why
 
 Telegram operators paid per word. Every word earned its place. LLMs charge per token. Same constraint, same discipline.

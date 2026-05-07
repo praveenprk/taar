@@ -10,10 +10,13 @@
     let t = raw;
 
     // 1. Nuke full opener phrases first (longest match first)
-    t = t.replace(/^(i was wondering if you could( please)?|i was wondering if you|could you( please)?|can you( please)?|would you mind|i would like you to|i would like to|i'd like you to|i'd like to|i want you to|i want to|i need you to|i need to|please help me|help me to)\s*/gi, '');
+    t = t.replace(/^(if you could( please)?|if you|could you( please)?|can you( please)?|would you mind|i would like you to|i would like to|i'd like you to|i'd like to|i want you to|i want to|i need you to|i need to|please help me|help me to)\s*/gi, '');
 
-    // 2. Inline politeness
-    t = t.replace(/\b(please|kindly|feel free to|go ahead and|as well)\b\s*/gi, '');
+    // 2. Inline politeness — keep please/kindly once, strip corporate filler
+    t = t.replace(/\b(feel free to|go ahead and|as well)\b\s*/gi, '');
+    // Deduplicate please/kindly if repeated
+    t = t.replace(/\b(please\s+){2,}/gi, 'please ');
+    t = t.replace(/\b(kindly\s+){2,}/gi, 'kindly ');
 
     // 3. Filler adverbs — pure noise
     t = t.replace(/\b(just|basically|essentially|actually|literally|simply|quite|really|very|also|furthermore|moreover|additionally|certainly|absolutely|definitely|totally|honestly|frankly)\b\s*/gi, '');

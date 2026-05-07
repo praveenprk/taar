@@ -2,19 +2,21 @@
 
 # Taar
 
-> Telegram-style prompt compression. Strip filler, cut tokens, keep signal.
+> Telegraph-era Telegram discipline for AI prompts. Every token costs. Make them count.
 
 Browser extension. No server. No API key.
 
 ## How it works
 
-Click into any prompt box on Claude, ChatGPT, Gemini — an `optimize` button appears. Click it. Filler stripped, stop words dropped, signal preserved.
+Click into any prompt box on Claude, ChatGPT, Gemini — an `optimize` button appears. Click it. Fillers stripped, stop words dropped, signal preserved.
 
-Before:
+**Before:**
 > I was wondering if you could please help me write a function that can be used to basically parse JSON data from an API response, and I would also like you to make sure that it handles errors properly as well.
 
-After:
+**After:**
 > Write function parse JSON data API response, handle errors.
+
+Same intent. Fewer tokens. Lower cost.
 
 ## In Action
 ![In Action](assets/taar-recording-chatgpt.gif)
@@ -28,7 +30,9 @@ After:
 
 ## Why
 
-Telegram operators paid per word. Every word earned its place. LLMs charge per token. Same constraint, same discipline.
+- The telegram was the original token economy transmitted by Telegraph. Operators charged per word. Every sender became an editor — cutting adjectives, dropping pleasantries, keeping only what the receiver needed to act.
+- Your LLM reads the same way. It doesn't need the preamble. It doesn't need "I was wondering if." It needs the instruction.
+- Taar is that editor. Local, fast.
 
 ## Screenshots
 

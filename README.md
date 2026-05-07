@@ -15,7 +15,7 @@ After:
 > Write function parse JSON data API response, handle errors.
 
 ## In Action
-![In Action](taar-recording-chatgpt.gif)
+![In Action](assets/taar-recording-chatgpt.gif)
 
 > ⚠️ **When to not use Taar**
 > - Code or technical prompts — stop words will mangle syntax
